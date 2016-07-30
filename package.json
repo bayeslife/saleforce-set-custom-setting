@@ -1,0 +1,17 @@
+{
+  "name": "salesforce_setup_customsettings",
+  "version": "1.0.0",
+  "description": "Updates Salesforce Custom Settings",
+  "main": "index.js",
+  "scripts": {
+    "doit":"node index.js phil.tomlinson@iag.co.nz.architect  PA22word7NDjPcO7eawwSAdY5K5u33sA",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phil Tomlinson",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.13.3",
+    "https-proxy-agent": "^1.0.0",
+    "node-salesforce": "^0.8.0"
+  }
+}
